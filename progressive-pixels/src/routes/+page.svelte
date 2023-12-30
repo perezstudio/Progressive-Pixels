@@ -14,7 +14,7 @@
             <p>In the realm of progressive movements, every message is a stepping stone towards impactful change. Our Creative as a Service (CaaS) subscription model is meticulously crafted to amplify your voice, offering a myriad of benefits tailored for political organizations, campaigns, nonprofits, and entities advocating for positive change.</p>
             <a href="/contact"><p>See Plans</p></a>
         </div>
-        <div class="grid grid-cols-3 gap-8">
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
             <FeatureCard title="Completely Asynchronous" description="Say goodbye to endless meetings while still reaching your creative goals." image="AsynchronousIcon.svg" imageAlt="Async Icon" />
             <FeatureCard title="Easy to Use Design Portal" description="Effortlessly manage your creative queue with our intuitive portal." image="PortalIcon.svg" imageAlt="Portal Icon"/>
             <FeatureCard title="Unlimited Team Members" description="Every team member's voice can contribute to driving impactful change." image="TeamMembersIcon.svg" imageAlt="Team Members Icon"/>
