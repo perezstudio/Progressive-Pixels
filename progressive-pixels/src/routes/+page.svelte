@@ -1,8 +1,8 @@
 <script>
     import { FeatureCard } from '$lib';
 </script>
-<section class="bg-slate-950 grid grid-cols-3 grid-rows-3">
-    <div class="container mx-auto flex flex-col gap-12 grid-area-1-1">
+<section class="bg-slate-950">
+    <div class="container mx-auto flex flex-col gap-12">
         <img src="Logo.svg" alt="Political Campaign" class="max-w-64"/>
         <div class="flex flex-col gap-4">
             <h1 class="text-white text-5xl font-bold">A design agency tailored for your cause</h1>
@@ -11,7 +11,7 @@
                 <a href="/contact" class="inline-block"><p class="font-medium text-slate-900 p-4 rounded-lg bg-white">Sign Up for Early Access</p></a>
             </div>
         </div>
-        <div class="grid-area-2-2">
+        <div>
             <img src="HeroImage.svg" alt="Hero Image" />
             <img src="HeroImage.svg" alt="Hero Image" />
         </div>
