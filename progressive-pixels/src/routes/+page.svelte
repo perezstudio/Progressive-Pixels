@@ -13,12 +13,12 @@
             </div>
         </div>
     </div>
-    <div class="container mx-auto flex flex-row flex-wrap lg:flex-nowrap gap-2 px-10 lg:max-h-64">
-        <img src="gallery/publius-polls@3x.png" alt="Publius Polls Website" class="w-1/3 rounded-lg" />
-        <img src="gallery/hispanic-heritage-month@3x.png" alt="Hispanic Heritage Month Social Posts" class="w-1/6 rounded-lg" />
-        <img src="gallery/black-history-month@3x.png" alt="Black History Month Website" class="w-1/3 rounded-lg" />
-        <img src="gallery/sevier-county-dems@3x.png" alt="Sevier County Dems Logo" class="w-1/3 rounded-lg" />
-        <img src="gallery/fair-deal-site@3x.png" alt="One Fair Deal Website" class="w-1/3 rounded-lg" />
-        <img src="gallery/floral-pattern@3x.png" alt="Hispanic Heritage Month Social Posts" class="w-1/6 rounded-lg" />
+    <div class="hidden lg:flex flex-row gap-8 px-10 lg:max-h-64 justify-center">
+        <img src="gallery/sevier-county-dems@3x.png" alt="Sevier County Dems Logo" class="w-[26.25rem] h-[15.625rem] rounded-lg" />
+        <img src="gallery/publius-polls@3x.png" alt="Publius Polls Website" class="w-[26.25rem] h-[15.625rem] rounded-lg" />
+        <img src="gallery/hispanic-heritage-month@3x.png" alt="Hispanic Heritage Month Social Posts" class="w-[26.25rem] h-[15.625rem] rounded-lg" />
+        <img src="gallery/black-history-month@3x.png" alt="Black History Month Website" class="w-[26.25rem] h-[15.625rem] rounded-lg" />
+        <img src="gallery/fair-deal-site@3x.png" alt="One Fair Deal Website" class="w-[26.25rem] h-[15.625rem] rounded-lg" />
+        <img src="gallery/floral-pattern@3x.png" alt="Hispanic Heritage Month Social Posts" class="w-[26.25rem] h-[15.625rem] rounded-lg" />
     </div>
 </section>
