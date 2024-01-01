@@ -1,10 +1,10 @@
 <script>
     import { FeatureCard } from '$lib';
 </script>
-<section class="bg-slate-950">
+<section class="bg-slate-950 bg-repeat" style="background-image: url(Background-Square.svg)">
     <div class="container mx-auto flex flex-col gap-12">
         <img src="Logo.svg" alt="Political Campaign" class="max-w-64"/>
-        <div class="flex flex-col gap-4">
+        <div class="flex flex-col gap-4 max-w-xl">
             <h1 class="text-white text-5xl font-bold">A design agency tailored for your cause</h1>
             <p class="text-white text-xl font-medium">The Unlimited Design Subscription Service for Political Campaigns, Parties, and Nonprofits.</p>
             <div>
