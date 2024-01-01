@@ -4,7 +4,7 @@
         <img src="Logo.svg" alt="Political Campaign" class="max-w-64"/>
         <div class="flex flex-col gap-4 max-w-xl">
             <div class="inline-flex">
-                <p class="outline rounded-3xl text-slate-400 px-4 py-1">Coming Spring 2024</p>
+                <p class="text-sm outline rounded-3xl text-slate-400 px-4 py-1">Coming Spring 2024</p>
             </div>
             <h1 class="text-white text-5xl font-bold">A design agency tailored for your cause</h1>
             <p class="text-white text-xl font-medium">The Unlimited Design Subscription Service for Political Campaigns, Parties, and Nonprofits.</p>
