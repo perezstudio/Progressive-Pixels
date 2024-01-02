@@ -42,27 +42,91 @@
         </div>
     </div>
 </section>
-<section>
-    <div class="container mx-auto flex flex-row">
-        <div>
-            <div class="flex flex-row gap-4">
-                <img src="services/CaaS.svg" alt="Political Campaign" class="w-6"/>
-                <h2 class="font-bold text-cyan-500">Design Essentials</h2>
+<section class="bg-cyan-50 py-20 px-6 md:px-12 lg:px-32">
+    <div class="container mx-auto flex flex-col md:flex-row">
+        <div class="max-w-full md:max-w-xl flex flex-col gap-7">
+            <div class="flex flex-col gap-4">
+                <div class="flex flex-row gap-4">
+                    <img src="services/CaaS.svg" alt="Design Essentials Services Icon" class="w-6"/>
+                    <h2 class="font-bold text-cyan-500">Design Essentials</h2>
+                </div>
+                <h3 class="text-4xl font-bold text-cyan-950">Explore a Spectrum of Creative Services Tailored for Impact!</h3>
+                <p class="font-medium text-cyan-950">From striking campaign graphics and engaging social media content to compelling visual identities and informative infographics, we bring your progressive vision to life. Our dedicated team of designers collaborates with you at every step, ensuring each creation is a powerful representation of your mission and values. Let's shape the future with visuals that inspire action, foster unity, and drive change!</p>
             </div>
-            <h3 class="text-4xl font-bold text-cyan-950">Explore a Spectrum of Creative Services Tailored for Impact!</h3>
-            <p class="font-medium text-cyan-950">From striking campaign graphics and engaging social media content to compelling visual identities and informative infographics, we bring your progressive vision to life. Our dedicated team of designers collaborates with you at every step, ensuring each creation is a powerful representation of your mission and values. Let's shape the future with visuals that inspire action, foster unity, and drive change!</p>
-            <div>
-                <div>
-                    <h4>Where Design Meets Brand Consistency</h4>
-                    <p>Our approach intertwines your unique brand story with consistent, innovative design. This synergy creates a compelling visual narrative that resonates with your audience and reinforces your brand's essence.</p>
+            <div class="flex flex-col gap-6">
+                <div class="flex flex-col gap-2">
+                    <h4 class="text-2xl font-bold text-cyan-950">Where Design Meets Brand Consistency</h4>
+                    <p class="font-medium text-cyan-950">Our approach intertwines your unique brand story with consistent, innovative design. This synergy creates a compelling visual narrative that resonates with your audience and reinforces your brand's essence.</p>
                 </div>
-                <div>
-                    <h4>Where Design Meets Brand Consistency</h4>
-                    <p>Our approach intertwines your unique brand story with consistent, innovative design. This synergy creates a compelling visual narrative that resonates with your audience and reinforces your brand's essence.</p>
+                <div class="flex flex-col gap-2">
+                    <h4 class="text-2xl font-bold text-cyan-950">Where Design Meets Brand Consistency</h4>
+                    <p class="font-medium text-cyan-950">Our approach intertwines your unique brand story with consistent, innovative design. This synergy creates a compelling visual narrative that resonates with your audience and reinforces your brand's essence.</p>
                 </div>
-                <div>
-                    <h4>Where Design Meets Brand Consistency</h4>
-                    <p>Our approach intertwines your unique brand story with consistent, innovative design. This synergy creates a compelling visual narrative that resonates with your audience and reinforces your brand's essence.</p>
+                <div class="flex flex-col gap-2">
+                    <h4 class="text-2xl font-bold text-cyan-950">Where Design Meets Brand Consistency</h4>
+                    <p class="font-medium text-cyan-950">Our approach intertwines your unique brand story with consistent, innovative design. This synergy creates a compelling visual narrative that resonates with your audience and reinforces your brand's essence.</p>
+                </div>
+            </div>
+        </div>
+        <div>
+            <img src="DesignEssentials.svg" alt="Design Essentials" />
+        </div>
+    </div>
+</section>
+<section class="bg-purple-50 py-20 px-6 md:px-12 lg:px-32">
+    <div class="container mx-auto flex flex-col md:flex-row">
+        <div>
+            <img src="DesignEssentials.svg" alt="Design Essentials" />
+        </div>
+        <div class="max-w-full md:max-w-xl flex flex-col gap-7">
+            <div class="flex flex-col gap-4">
+                <div class="flex flex-row gap-4">
+                    <img src="services/Social.svg" alt="Social Media Services Icon" class="w-6"/>
+                    <h2 class="font-bold text-purple-500">Social Media</h2>
+                </div>
+                <h3 class="text-4xl font-bold text-purple-950">Explore a Spectrum of Creative Services Tailored for Impact!</h3>
+                <p class="font-medium text-purple-950">From striking campaign graphics and engaging social media content to compelling visual identities and informative infographics, we bring your progressive vision to life. Our dedicated team of designers collaborates with you at every step, ensuring each creation is a powerful representation of your mission and values. Let's shape the future with visuals that inspire action, foster unity, and drive change!</p>
+            </div>
+            <div class="flex flex-col gap-6">
+                <div class="flex flex-col gap-2">
+                    <h4 class="text-2xl font-bold text-purple-950">Where Design Meets Brand Consistency</h4>
+                    <p class="font-medium text-purple-950">Our approach intertwines your unique brand story with consistent, innovative design. This synergy creates a compelling visual narrative that resonates with your audience and reinforces your brand's essence.</p>
+                </div>
+                <div class="flex flex-col gap-2">
+                    <h4 class="text-2xl font-bold text-purple-950">Where Design Meets Brand Consistency</h4>
+                    <p class="font-medium text-purple-950">Our approach intertwines your unique brand story with consistent, innovative design. This synergy creates a compelling visual narrative that resonates with your audience and reinforces your brand's essence.</p>
+                </div>
+                <div class="flex flex-col gap-2">
+                    <h4 class="text-2xl font-bold text-purple-950">Where Design Meets Brand Consistency</h4>
+                    <p class="font-medium text-purple-950">Our approach intertwines your unique brand story with consistent, innovative design. This synergy creates a compelling visual narrative that resonates with your audience and reinforces your brand's essence.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="bg-lime-50 py-20 px-6 md:px-12 lg:px-32">
+    <div class="container mx-auto flex flex-col md:flex-row">
+        <div class="max-w-full md:max-w-xl flex flex-col gap-7">
+            <div class="flex flex-col gap-4">
+                <div class="flex flex-row gap-4">
+                    <img src="services/Web.svg" alt="Web Digital Services Icon" class="w-6"/>
+                    <h2 class="font-bold text-lime-500">Web Digital</h2>
+                </div>
+                <h3 class="text-4xl font-bold text-lime-950">Explore a Spectrum of Creative Services Tailored for Impact!</h3>
+                <p class="font-medium text-lime-950">From striking campaign graphics and engaging social media content to compelling visual identities and informative infographics, we bring your progressive vision to life. Our dedicated team of designers collaborates with you at every step, ensuring each creation is a powerful representation of your mission and values. Let's shape the future with visuals that inspire action, foster unity, and drive change!</p>
+            </div>
+            <div class="flex flex-col gap-6">
+                <div class="flex flex-col gap-2">
+                    <h4 class="text-2xl font-bold text-lime-950">Where Design Meets Brand Consistency</h4>
+                    <p class="font-medium text-lime-950">Our approach intertwines your unique brand story with consistent, innovative design. This synergy creates a compelling visual narrative that resonates with your audience and reinforces your brand's essence.</p>
+                </div>
+                <div class="flex flex-col gap-2">
+                    <h4 class="text-2xl font-bold text-lime-950">Where Design Meets Brand Consistency</h4>
+                    <p class="font-medium text-lime-950">Our approach intertwines your unique brand story with consistent, innovative design. This synergy creates a compelling visual narrative that resonates with your audience and reinforces your brand's essence.</p>
+                </div>
+                <div class="flex flex-col gap-2">
+                    <h4 class="text-2xl font-bold text-lime-950">Where Design Meets Brand Consistency</h4>
+                    <p class="font-medium text-lime-950">Our approach intertwines your unique brand story with consistent, innovative design. This synergy creates a compelling visual narrative that resonates with your audience and reinforces your brand's essence.</p>
                 </div>
             </div>
         </div>
