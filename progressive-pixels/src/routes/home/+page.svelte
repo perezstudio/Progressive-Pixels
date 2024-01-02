@@ -43,14 +43,14 @@
     </div>
 </section>
 <section>
-    <div class="container mx-auto">
+    <div class="container mx-auto flex flex-row">
         <div>
-            <div>
-                <img src="Logo.svg" alt="Political Campaign" />
-                <h2>Design Essentials</h2>
+            <div class="flex flex-row gap-4">
+                <img src="services/CaaS.svg" alt="Political Campaign" class="w-6"/>
+                <h2 class="font-bold text-cyan-500">Design Essentials</h2>
             </div>
-            <h3>Explore a Spectrum of Creative Services Tailored for Impact!</h3>
-            <p>From striking campaign graphics and engaging social media content to compelling visual identities and informative infographics, we bring your progressive vision to life. Our dedicated team of designers collaborates with you at every step, ensuring each creation is a powerful representation of your mission and values. Let's shape the future with visuals that inspire action, foster unity, and drive change!</p>
+            <h3 class="text-4xl font-bold text-cyan-950">Explore a Spectrum of Creative Services Tailored for Impact!</h3>
+            <p class="font-medium text-cyan-950">From striking campaign graphics and engaging social media content to compelling visual identities and informative infographics, we bring your progressive vision to life. Our dedicated team of designers collaborates with you at every step, ensuring each creation is a powerful representation of your mission and values. Let's shape the future with visuals that inspire action, foster unity, and drive change!</p>
             <div>
                 <div>
                     <h4>Where Design Meets Brand Consistency</h4>

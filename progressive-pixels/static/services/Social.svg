@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="200px" height="200px" viewBox="0 0 200 200" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Social</title>
+    <g id="Social" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Rectangle-3" stroke="#D8B4FE" stroke-width="4" fill="#E9D5FF" fill-rule="nonzero" x="2" y="2" width="196" height="196" rx="16"></rect>
+        <rect id="Rectangle-1" fill="#C084FC" fill-rule="nonzero" x="12" y="60" width="80" height="80" rx="8"></rect>
+        <rect id="Rectangle-5" fill="#A855F7" fill-rule="nonzero" x="108" y="60" width="80" height="80" rx="8"></rect>
+    </g>
+</svg>

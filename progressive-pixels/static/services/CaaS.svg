@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="200px" height="200px" viewBox="0 0 200 200" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>CaaS</title>
+    <g id="CaaS" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Rectangle-7" stroke="#67E8F9" stroke-width="4" fill="#A5F3FC" fill-rule="nonzero" x="2" y="2" width="196" height="196" rx="16"></rect>
+        <rect id="Rectangle-8" fill="#22D3EE" fill-rule="nonzero" x="13" y="14" width="80" height="80" rx="8"></rect>
+        <rect id="Rectangle-10" fill="#22D3EE" fill-rule="nonzero" x="106" y="105" width="80" height="80" rx="8"></rect>
+        <rect id="Rectangle-11" fill="#06B6D4" fill-rule="nonzero" x="13" y="105" width="80" height="80" rx="8"></rect>
+    </g>
+</svg>

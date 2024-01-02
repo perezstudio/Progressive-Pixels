@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="200px" height="200px" viewBox="0 0 200 200" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Web</title>
+    <g id="Web" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-1" fill-rule="nonzero">
+            <rect id="Rectangle-3" stroke="#BEF264" stroke-width="4" fill="#D9F99D" x="2" y="2" width="196" height="196" rx="16"></rect>
+            <rect id="Rectangle-2" fill="#A3E635" x="25" y="50" width="150" height="100" rx="8"></rect>
+            <rect id="Rectangle-1" fill="#84CC16" x="65" y="78" width="70" height="100" rx="8"></rect>
+        </g>
+    </g>
+</svg>
