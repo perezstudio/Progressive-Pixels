@@ -75,7 +75,7 @@
 </section>
 <section class="bg-purple-50 py-20 px-6 md:px-12 lg:px-32">
     <div class="container mx-auto flex flex-col md:flex-row">
-        <div>
+        <div class="w-full">
             <img src="DesignEssentials.svg" alt="Design Essentials" />
         </div>
         <div class="max-w-full md:max-w-xl flex flex-col gap-7">
@@ -84,7 +84,7 @@
                     <img src="services/Social.svg" alt="Social Media Services Icon" class="w-6"/>
                     <h2 class="font-bold text-purple-500">Social Media</h2>
                 </div>
-                <h3 class="text-4xl font-bold text-purple-950">Explore a Spectrum of Creative Services Tailored for Impact!</h3>
+                <h3 class="text-4xl font-bold text-purple-950">Elevate your social presence and turn every post into a powerful message of change!</h3>
                 <p class="font-medium text-purple-950">From striking campaign graphics and engaging social media content to compelling visual identities and informative infographics, we bring your progressive vision to life. Our dedicated team of designers collaborates with you at every step, ensuring each creation is a powerful representation of your mission and values. Let's shape the future with visuals that inspire action, foster unity, and drive change!</p>
             </div>
             <div class="flex flex-col gap-6">
