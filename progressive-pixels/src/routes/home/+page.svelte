@@ -73,10 +73,13 @@
         </div>
     </div>
 </section>
-<section class="bg-purple-50 py-20 px-6 md:px-12 lg:px-32">
-    <div class="container mx-auto flex flex-col md:flex-row">
-        <div class="w-full">
-            <img src="DesignEssentials.svg" alt="Design Essentials" />
+<section class="bg-purple-50 py-20 px-6 md:px-12 lg:px-32 overflow-hidden lg:max-h-screen flex flex-col justify-center">
+    <div class="container mx-auto flex flex-col md:flex-row items-center justify-between gap-8">
+        <div class="w-full flex flex-col gap-8">
+            <img src="gallery/texting-guide@3x.png" alt="Texting Guide Social Media Ad" class="rounded-xl" />
+            <img src="gallery/bar-crawl-fundraiser@3x.png" alt="FFCU Bar Crawl Fundraiser Post" class="rounded-xl" />
+            <img src="gallery/father-involvement@3x.png" alt="FFCU Father Involvement Posts" class="rounded-xl" />
+            <img src="gallery/coffee-meetup@3x.png" alt="Democrats Coffee Meetup" class="rounded-xl" />
         </div>
         <div class="max-w-full md:max-w-xl flex flex-col gap-7">
             <div class="flex flex-col gap-4">
