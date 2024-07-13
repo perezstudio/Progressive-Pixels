@@ -3,7 +3,7 @@ import Button from "~/components/button";
 import classNames from 'classnames';
 
 const ServiceCard = ({ type, serviceName, preService, postService, startLink, startText, learnLink, learnText }) => {
-	const baseClasses = 'p-8 rounded-2xl gap-7 focus:outline-none focus:ring';
+	const baseClasses = 'p-8 rounded-2xl gap-7 justify-between focus:outline-none focus:ring';
   	const typeClasses = classNames({
 		'bg-cyan-500 text-cyan-200 flex flex-col': type === 'design',
 		'bg-lime-500 text-lime-200 flex flex-col': type === 'web',
