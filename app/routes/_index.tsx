@@ -65,11 +65,12 @@ export default function Index() {
       </section>
       <section className="px-8 py-20 flex flex-row justify-center">
         <div className="flex flex-col gap-4 max-w-1200 w-full">
-          <h2 className="font-bold text-slate-950 text-4xl">Membership Benefits</h2>
+          <h2 className="font-bold text-slate-950 text-4xl">Join Progressive Pixels</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-            <PricingCard type="design" heading="Design Essentials" dollarAmount="199" centsAmount=".99" features={['Unlimited Revisions', '1-2 day turnaround*']} included={['Unlimited Revisions', '1-2 day turnaround*']} />
-            <PricingCard type="social" heading="Design Essentials" dollarAmount="199" centsAmount=".99" features={['Unlimited Revisions', '1-2 day turnaround*']} included={['Unlimited Revisions', '1-2 day turnaround*']} />
-            <PricingCard type="web" heading="Design Essentials" dollarAmount="199" centsAmount=".99" features={['Unlimited Revisions', '1-2 day turnaround*']} included={['Unlimited Revisions', '1-2 day turnaround*']} />
+            <PricingCard type="design" heading="Design Essentials" dollarAmount="199" centsAmount=".99" included={['Unlimited Revisions', '1-2 day turnaround*']} included={['Unlimited Revisions', 'Domain & Hosting - 1 site', 'One request at a time', 'Unlimited Brands', 'Unlimited Users']} features={['Unlimited Revisions', '1-2 day turnaround*']} included={['Unlimited Revisions', '1-2 day turnaround*', 'One request at a time', 'Unlimited Brands', 'Unlimited Users']} />
+            <PricingCard type="social" heading="Design Essentials" dollarAmount="199" centsAmount=".99" included={['Unlimited Revisions', '1-2 day turnaround*']} included={['Unlimited Revisions', 'Domain & Hosting - 1 site', 'One request at a time', 'Unlimited Brands', 'Unlimited Users']} features={['Unlimited Revisions', '1-2 day turnaround*']} included={['Unlimited Revisions', '1-2 day turnaround*', 'One request at a time', 'Unlimited Brands', 'Unlimited Users']} />
+            <PricingCard type="web" heading="Design Essentials" dollarAmount="199" centsAmount=".99" included={['Unlimited Revisions', '1-2 day turnaround*']} included={['Unlimited Revisions', 'Domain & Hosting - 1 site', 'One request at a time', 'Unlimited Brands', 'Unlimited Users']} features={['Unlimited Revisions', '1-2 day turnaround*']} included={['Unlimited Revisions', 'Domain & Hosting - 1 site', 'One request at a time', 'Unlimited Brands', 'Unlimited Users']} />
+            <PricingCard type="bundle" heading="Design Essentials" dollarAmount="199" centsAmount=".99" included={['Unlimited Revisions', '1-2 day turnaround*']} included={['Unlimited Revisions', 'Domain & Hosting - 1 site', 'One request at a time', 'Unlimited Brands', 'Unlimited Users']} features={['Unlimited Revisions', '1-2 day turnaround*']} included={['Unlimited Revisions', 'Domain & Hosting - 1 site', 'One request at a time', 'Unlimited Brands', 'Unlimited Users']} />
           </div>
         </div>
       </section>

@@ -17,7 +17,7 @@ const PricingCard: React.FC<PricingCardProps> = ({ type, heading, features, incl
 		'bg-cyan-500 border-cyan-200 border-2 text-cyan-800': type === 'design',
 		'bg-lime-500 border-lime-200 border-2 text-lime-800': type === 'web',
 		'bg-purple-500 border-purple-200 border-2 text-purple-800': type === 'social',
-		'bg-slate-500 border-slate-200 border-2 text-slate-800': type === 'bundle',
+		'bg-slate-500 border-slate-200 border-2 text-slate-800 col-span-2': type === 'bundle',
   	});
 	const headingClasses = classNames({
 		'text-cyan-200 text-4xl font-bold': type === 'design',
@@ -39,22 +39,22 @@ const PricingCard: React.FC<PricingCardProps> = ({ type, heading, features, incl
 				<p className="text-xs">Monthly / per Team</p>
 			</div>
 			<div className="flex flex-col gap-7">
-				<ul className="list-disc">
+				<ul className="list-disc list-inside">
 					<p className="text-sm font-bold">What's Included</p>
 					{included.map((item, index) => (
 						<li key={index}>{item}</li>
 					))}
 				</ul>
-				<ul className="list-disc">
+				<ul className="list-disc list-inside">
 					<p className="text-sm font-bold">Features</p>
 					{features.map((item, index) => (
 						<li key={index}>{item}</li>
 					))}
 				</ul>
 			</div>
-			<div>
-				<Button />
-				<Button />
+			<div className="flex flex-col sm:flex-row gap-4">
+				<Button type="primary">Get Started</Button>
+				<Button type="secondary">Book A Call</Button>
 			</div>
 		</div>
 	);
