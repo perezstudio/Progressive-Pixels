@@ -2,6 +2,14 @@ import type { MetaFunction } from "@remix-run/node";
 import Logo from "~/components/logo";
 import ServiceCard from "~/components/serviceCard";
 import Button from "~/components/button";
+import FeatureCard from "~/components/featureCard";
+import BadgeIcon from "~/icons/badgeIcon";
+import DollarIcon from "~/icons/dollarIcon";
+import FingerprintIcon from "~/icons/fingerprintIcon";
+import LightningIcon from "~/icons/lightningIcon";
+import TaskboardIcon from "~/icons/taskboardIcon";
+import VertexIcon from "~/icons/vertexIcon";
+import PricingCard from "~/components/pricingCard";
 
 export const meta: MetaFunction = () => {
   return [
@@ -29,6 +37,39 @@ export default function Index() {
             <ServiceCard preService="Meet " serviceName="Social Media" postService=", your strategist for building your community." type="social" />
             <ServiceCard preService="Meet " serviceName="Web Studio" postService=", your service for building impactful campaign websites." type="web" />
             <ServiceCard preService="Meet " serviceName="Advocacy Ink" postService=", your partner for printing vibrant campaign materials." type="print" />
+          </div>
+        </div>
+      </section>
+      <section className="px-8 py-20 flex flex-row justify-center">
+        <div className="flex flex-col gap-8 max-w-1200">
+          <h2 className="font-bold text-slate-950 text-4xl">How do our services work?</h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <FeatureCard type="design" heading="Subscribe to a plan and receive portal access" body="With just a few clicks you can setup your login and invite your team to our proprietary client portal.">1</FeatureCard>
+            <FeatureCard type="web" heading="Request as many designs as you’d like" body="Start building your request list and ensure every idea & vision is brought to life.">2</FeatureCard>
+            <FeatureCard type="print" heading="We’ll revise the designs until you’re 100% satisfied" body="We’ll work closely with you to refine every detail & ensure the final product perfectly aligns with your vision and expectations.">3</FeatureCard>
+          </div>
+        </div>
+      </section>
+      <section className="px-8 py-20 flex flex-row justify-center">
+        <div className="flex flex-col gap-4 max-w-1200">
+          <h2 className="font-bold text-slate-950 text-4xl">Membership Benefits</h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <FeatureCard type="design" heading="Task Board" body="Easily manage your task queue within our easy to use client portal."><TaskboardIcon iconClass="fill-cyan-800" /></FeatureCard>
+            <FeatureCard type="web" heading="Lightning Fast Delivery" body="Get your design one at a time in just a few days on average."><LightningIcon iconClass="fill-lime-800" /></FeatureCard>
+            <FeatureCard type="print" heading="Fixed Monthly Rate" body="No surprises here! Pay the same fixed price each month."><DollarIcon iconClass="fill-amber-800" /></FeatureCard>
+            <FeatureCard type="design" heading="Top Notch Quality" body="Incredible design quality at your fingertips whenever you need it."><BadgeIcon iconClass="fill-cyan-800" /></FeatureCard>
+            <FeatureCard type="web" heading="Flexible and Scalable" body="Scale up or down as needed, and pause or cancel at anytime."><VertexIcon iconClass="fill-cyan-800" /></FeatureCard>
+            <FeatureCard type="print" heading="Unique and All Yours" body="Each of your designs is made especially for you and is 100% yours."><FingerprintIcon iconClass="fill-amber-800" /></FeatureCard>
+          </div>
+        </div>
+      </section>
+      <section className="px-8 py-20 flex flex-row justify-center">
+        <div className="flex flex-col gap-4 max-w-1200 w-full">
+          <h2 className="font-bold text-slate-950 text-4xl">Membership Benefits</h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+            <PricingCard type="design" heading="Design Essentials" dollarAmount="199" centsAmount=".99" features={['Unlimited Revisions', '1-2 day turnaround*']} included={['Unlimited Revisions', '1-2 day turnaround*']} />
+            <PricingCard type="social" heading="Design Essentials" dollarAmount="199" centsAmount=".99" features={['Unlimited Revisions', '1-2 day turnaround*']} included={['Unlimited Revisions', '1-2 day turnaround*']} />
+            <PricingCard type="web" heading="Design Essentials" dollarAmount="199" centsAmount=".99" features={['Unlimited Revisions', '1-2 day turnaround*']} included={['Unlimited Revisions', '1-2 day turnaround*']} />
           </div>
         </div>
       </section>
