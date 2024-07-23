@@ -17,7 +17,7 @@ const PricingCard: React.FC<PricingCardProps> = ({ type, heading, features, incl
 		'bg-cyan-500 border-cyan-200 border-2 text-cyan-800': type === 'design',
 		'bg-lime-500 border-lime-200 border-2 text-lime-800': type === 'web',
 		'bg-purple-500 border-purple-200 border-2 text-purple-800': type === 'social',
-		'bg-slate-200 border-slate-300 border-2 text-slate-900 col-span-2': type === 'bundle',
+		'bg-slate-200 border-slate-300 border-2 text-slate-900 lg:col-span-2': type === 'bundle',
   	});
 	const headingClasses = classNames({
 		'text-cyan-200 text-4xl font-bold': type === 'design',
