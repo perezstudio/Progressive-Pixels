@@ -10,6 +10,7 @@ import LightningIcon from "~/icons/lightningIcon";
 import TaskboardIcon from "~/icons/taskboardIcon";
 import VertexIcon from "~/icons/vertexIcon";
 import PricingCard from "~/components/pricingCard";
+import CTACard from "~/components/ctaCard";
 
 export const meta: MetaFunction = () => {
   return [
@@ -51,7 +52,7 @@ export default function Index() {
         </div>
       </section>
       <section className="px-8 py-20 flex flex-row justify-center">
-        <div className="flex flex-col gap-4 max-w-1200">
+        <div className="flex flex-col gap-8 max-w-1200">
           <h2 className="font-bold text-slate-950 text-4xl">Membership Benefits</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             <FeatureCard type="design" heading="Task Board" body="Easily manage your task queue within our easy to use client portal."><TaskboardIcon iconClass="fill-cyan-800" /></FeatureCard>
@@ -64,13 +65,14 @@ export default function Index() {
         </div>
       </section>
       <section className="px-8 py-20 flex flex-row justify-center">
-        <div className="flex flex-col gap-4 max-w-1200 w-full">
+        <div className="flex flex-col gap-8 max-w-1200 w-full">
           <h2 className="font-bold text-slate-950 text-4xl">Join Progressive Pixels</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
             <PricingCard type="design" heading="Design Essentials" dollarAmount="199" centsAmount=".99" included={['Unlimited Revisions', '1-2 day turnaround*']} included={['Unlimited Revisions', 'Domain & Hosting - 1 site', 'One request at a time', 'Unlimited Brands', 'Unlimited Users']} features={['Unlimited Revisions', '1-2 day turnaround*']} included={['Unlimited Revisions', '1-2 day turnaround*', 'One request at a time', 'Unlimited Brands', 'Unlimited Users']} />
             <PricingCard type="social" heading="Design Essentials" dollarAmount="199" centsAmount=".99" included={['Unlimited Revisions', '1-2 day turnaround*']} included={['Unlimited Revisions', 'Domain & Hosting - 1 site', 'One request at a time', 'Unlimited Brands', 'Unlimited Users']} features={['Unlimited Revisions', '1-2 day turnaround*']} included={['Unlimited Revisions', '1-2 day turnaround*', 'One request at a time', 'Unlimited Brands', 'Unlimited Users']} />
             <PricingCard type="web" heading="Design Essentials" dollarAmount="199" centsAmount=".99" included={['Unlimited Revisions', '1-2 day turnaround*']} included={['Unlimited Revisions', 'Domain & Hosting - 1 site', 'One request at a time', 'Unlimited Brands', 'Unlimited Users']} features={['Unlimited Revisions', '1-2 day turnaround*']} included={['Unlimited Revisions', 'Domain & Hosting - 1 site', 'One request at a time', 'Unlimited Brands', 'Unlimited Users']} />
             <PricingCard type="bundle" heading="Design Essentials" dollarAmount="199" centsAmount=".99" included={['Unlimited Revisions', '1-2 day turnaround*']} included={['Unlimited Revisions', 'Domain & Hosting - 1 site', 'One request at a time', 'Unlimited Brands', 'Unlimited Users']} features={['Unlimited Revisions', '1-2 day turnaround*']} included={['Unlimited Revisions', 'Domain & Hosting - 1 site', 'One request at a time', 'Unlimited Brands', 'Unlimited Users']} />
+            <CTACard heading="Book a 15 min Intro Call" body="Learn more about how Progressive Pixels works and how it can help you."><Button type="secondary" >Book A Call</Button></CTACard>
           </div>
         </div>
       </section>

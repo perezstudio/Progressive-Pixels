@@ -17,20 +17,24 @@ const PricingCard: React.FC<PricingCardProps> = ({ type, heading, features, incl
 		'bg-cyan-500 border-cyan-200 border-2 text-cyan-800': type === 'design',
 		'bg-lime-500 border-lime-200 border-2 text-lime-800': type === 'web',
 		'bg-purple-500 border-purple-200 border-2 text-purple-800': type === 'social',
-		'bg-slate-500 border-slate-200 border-2 text-slate-800 col-span-2': type === 'bundle',
+		'bg-slate-200 border-slate-300 border-2 text-slate-900 col-span-2': type === 'bundle',
   	});
 	const headingClasses = classNames({
 		'text-cyan-200 text-4xl font-bold': type === 'design',
 		'text-lime-200 text-4xl font-bold': type === 'web',
 		'text-purple-200 text-4xl font-bold': type === 'social',
-		'text-slate-200 text-4xl font-bold': type === 'bundle',
+		'text-slate-500 text-4xl font-bold': type === 'bundle',
   	});
 	const dollarClasses = 'text-6xl font-bold';
+	const pricingDivClasses = classNames({
+		'text-slate-900': type === 'bundle', // Specific class for bundle type
+		'text-white': type !== 'bundle'  // Default class for other types
+	});
 	
 	return (
 		<div className={`${baseClasses} ${typeCardClasses}`}>
 			<h2 className={headingClasses}>{heading}</h2>
-			<div className="text-white">
+			<div className={pricingDivClasses}>
 				<div className="flex flex-row gap-0.5">
 					<span>$</span>
 					<span className={dollarClasses}>{dollarAmount}</span>

@@ -1,9 +1,9 @@
 import React from "react";
 import Logo from "~/components/logo"
 
-export default function Navbar() {
+export default function Footer() {
 	return (
-		<nav className="flex flex-col px-8 py-4 items-center">
+		<footer className="flex flex-col px-8 py-4 items-center">
 			<div className="flex flex-row justify-between max-w-1200 w-full">
 				<div className="flex items-center p-2 group transition-all duration-300 hover:bg-slate-200 rounded-md">
 					<div className="w-8">
@@ -17,12 +17,15 @@ export default function Navbar() {
 					</div>
 				</div>
 				<div>
+					<p>© 2023 Progressive Pixels, LLC.</p>
+				</div>
+				<div>
 					<ul className="flex flex-row gap-2">
 						<li className="p-4">Login</li>
 						<li className="p-4">Start for Free</li>
 					</ul>
 				</div>
 			</div>
-		</nav>
+		</footer>
 	);
 }
