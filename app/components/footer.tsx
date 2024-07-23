@@ -7,7 +7,7 @@ export default function Footer() {
 			<div className="flex flex-row justify-between max-w-1200 w-full">
 				<div className="flex items-center p-2 group transition-all duration-300 hover:bg-slate-200 rounded-md">
 					<div className="w-8">
-						<Logo status="Primary" />
+						<Logo status="Dark" />
 					</div>
 					<div className="ml-2 overflow-hidden">
 					  <div className="flex flex-col gap-0s opacity-0 group-hover:opacity-100 group-hover:max-w-xs transition-all duration-300 text-logo">
