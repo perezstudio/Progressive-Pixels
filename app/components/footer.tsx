@@ -1,5 +1,6 @@
 import React from "react";
-import Logo from "~/components/logo"
+import Logo from "~/components/logo";
+import SocialIcons from "~/components/socialIcons"
 
 export default function Footer() {
 	return (
@@ -20,9 +21,12 @@ export default function Footer() {
 					<p>© 2023 Progressive Pixels, LLC.</p>
 				</div>
 				<div>
-					<ul className="flex flex-row gap-2">
-						<li className="p-4">Login</li>
-						<li className="p-4">Start for Free</li>
+					<ul className="flex flex-row gap-2 items-center">
+						<li><SocialIcons to="https://facebook.com/" type="facebook" className="fill-slate-400 hover:fill-blue-500" /></li>
+						<li><SocialIcons to="https://twitter.com/" type="twitter" className="fill-slate-400 hover:fill-cyan-500" /></li>
+						<li><SocialIcons to="https://instagram.com/" type="instagram" className="fill-slate-400 hover:fill-orange-500" /></li>
+						<li><SocialIcons to="https://tiktok.com/" type="tiktok" className="fill-slate-400 hover:fill-pink-500" /></li>
+						<li><SocialIcons to="https://youtube.com/" type="youtube" className="fill-slate-400 hover:fill-red-500" /></li>
 					</ul>
 				</div>
 			</div>

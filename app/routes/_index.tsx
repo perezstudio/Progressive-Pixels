@@ -31,7 +31,7 @@ export default function Index() {
         </div>
       </section>
       <section className="px-8 py-20 flex flex-row justify-center">
-        <div className="flex flex-col gap-8 max-w-1200">
+        <div className="flex flex-col gap-8 max-w-1200 w-full">
           <h2 className="font-bold text-slate-950 text-4xl">Navigating the digital landscape for political campaigns doesn't have to be complex or costly. Say hello to your dedicate marketing team.</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             <ServiceCard preService="Meet " serviceName="Design Essentials" postService=", the unlimited design subscription for your cause." type="design" />
@@ -42,7 +42,7 @@ export default function Index() {
         </div>
       </section>
       <section className="px-8 py-20 flex flex-row justify-center">
-        <div className="flex flex-col gap-8 max-w-1200">
+        <div className="flex flex-col gap-8 max-w-1200 w-full">
           <h2 className="font-bold text-slate-950 text-4xl">How do our services work?</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             <FeatureCard type="design" heading="Subscribe to a plan and receive portal access" body="With just a few clicks you can setup your login and invite your team to our proprietary client portal.">1</FeatureCard>
@@ -52,7 +52,7 @@ export default function Index() {
         </div>
       </section>
       <section className="px-8 py-20 flex flex-row justify-center">
-        <div className="flex flex-col gap-8 max-w-1200">
+        <div className="flex flex-col gap-8 max-w-1200 w-full">
           <h2 className="font-bold text-slate-950 text-4xl">Membership Benefits</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             <FeatureCard type="design" heading="Task Board" body="Easily manage your task queue within our easy to use client portal."><TaskboardIcon iconClass="fill-cyan-800" /></FeatureCard>
